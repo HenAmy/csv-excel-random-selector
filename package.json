@@ -1,0 +1,17 @@
+{
+    "name": "random-winner",
+    "version": "1.1.0",
+    "main": "main.js",
+    "devDependencies": {
+        "electron": "^9.0.0"
+    },
+    "scripts": {
+        "start": "electron ."
+    },
+    "dependencies": {
+        "csvtojson": "^2.0.10",
+        "easytimer.js": "^4.1.1",
+        "jquery": "^3.5.1",
+        "papaparse": "^5.2.0"
+    }
+}

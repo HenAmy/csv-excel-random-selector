@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Five 90</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div id="container">
+        <h1>Five 90</h1>
+        <ul id="count-group1">
+            <div>
+                <div>
+                    <li id="number-Area">------------</li> 
+                    <ul id="count-group2">
+                        <li id="dummy-number">233</li>
+                        <li class="counter1">-</li>
+                        <li class="counter2">-</li>
+                        <li class="counter3">-</li>
+                        <li class="counter4">-</li>
+                    </ul>
+                </div>
+                <li id="ticketID">Ticket ID</li>
+                <li id="ticket">Ticket</li>
+            </div>
+        </ul>
+<hr/>
+        
+        
+        <div id="buttons">
+            <div>
+                <div id="gameButtons">
+                    <button onclick="restart()" id="readyButtons">Ready</button>
+                    <button onclick="pause()" id="selectButtons">Select</button>
+                </div>
+                <div id="show-details">
+                    <button id="detailButtons">Show Details</button> 
+                </div>
+                <div id="back">
+                    <button id="backButtons">Back</button> 
+                </div>
+            </div>
+        </div>
+        
+    
+        <!-- <div id="tableContainer">
+            <table id="tableMain">
+                <thead>
+                    <tr class="tableheader">
+                        <th class="table1">Column1</th>
+                        <th class="table2">Column2</th>
+                        <th class="table3">Column3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </div> -->
+        
+        <div id="uploadBtn">
+            <input type="file" id="inputfile"/>
+            <input type="button" id="viewfile" value="Import file" />
+            <button id="newWindowButton">Upload</button>
+        </div>
+    </div>
+
+    
+    
+    <script src="./jquery-3.5.1.min.js"></script>
+    <script src="./easytimer.js"></script>
+    <script src="./papaparse.min.js"></script>
+    <script  src="./index.js">
+    </script>
+</body>
+</html>

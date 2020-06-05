@@ -1,0 +1,133 @@
+body{
+    height: 97vh;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 16%;
+}
+
+h1{
+    color: blue;
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+}
+
+#number-Area{
+    font-size: 124px;
+    font-family: monospace;
+}
+
+#count-group1{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+#count-group2{
+    list-style: none;
+    display: flex;
+    font-size: 124px;
+    font-family: monospace;
+    padding: 0;
+    margin-top: -16%;
+    justify-content: center;
+}
+
+#gameButtons{
+    display: flex;
+    justify-content: center;
+}
+
+/* button:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+button:active{
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+button:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+} */
+
+#readyButtons{
+    border: solid 1px darkblue;
+    padding: 1.5%;
+    font-size: 140%;
+    font-family: monospace;
+    margin-right: 2%;
+    cursor: pointer;
+}
+#readyButtons:hover{
+    background: grey;
+    color: white;
+}
+
+#selectButtons{
+    border: solid 1px darkred;
+    padding: 1.5%;
+    font-size: 140%;
+    font-family: monospace;
+    cursor: pointer;
+}
+#selectButtons:hover{
+    background: grey;
+    color: white;
+}
+
+#show-details{
+    display: flex;
+    justify-content: center;
+}
+#detailButtons{
+    text-align: center;
+    margin-top: -5%;
+    border: solid 1px darkred;
+    padding: 1.5%;
+    font-size: 140%;
+    font-family: monospace;
+    cursor: pointer;
+}
+
+#back{
+    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+}
+#backButtons{
+    text-align: center;
+    margin-top: -5%;
+    border: solid 1px darkred;
+    padding: 1.5%;
+    font-size: 140%;
+    font-family: monospace;
+    cursor: pointer;
+}
+
+.mainButtons{
+    width: 20%;
+    height: 40px;
+    font-size: 30px;
+}
+
+#uploadBtn{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
